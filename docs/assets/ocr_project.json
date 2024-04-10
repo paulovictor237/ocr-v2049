@@ -1,0 +1,304 @@
+{
+  "project": {
+    "pid": "__VIA_PROJECT_ID__",
+    "rev": "__VIA_PROJECT_REV_ID__",
+    "rev_timestamp": "__VIA_PROJECT_REV_TIMESTAMP__",
+    "pname": "ocr_project",
+    "creator": "VGG Image Annotator (http://www.robots.ox.ac.uk/~vgg/software/via)",
+    "created": 1710781186638,
+    "vid_list": [
+      "1"
+    ]
+  },
+  "config": {
+    "file": {
+      "loc_prefix": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    "ui": {
+      "file_content_align": "center",
+      "file_metadata_editor_visible": true,
+      "spatial_metadata_editor_visible": true,
+      "temporal_segment_metadata_editor_visible": true,
+      "spatial_region_label_attribute_id": "1",
+      "gtimeline_visible_row_count": "4"
+    }
+  },
+  "attribute": {
+    "1": {
+      "aname": "name",
+      "anchor_id": "FILE1_Z0_XY1",
+      "type": 1,
+      "desc": "requierd",
+      "options": {},
+      "default_option_id": ""
+    },
+    "2": {
+      "aname": "search_keyword",
+      "anchor_id": "FILE1_Z0_XY1",
+      "type": 1,
+      "desc": "optional",
+      "options": {},
+      "default_option_id": ""
+    }
+  },
+  "file": {
+    "1": {
+      "fid": "1",
+      "fname": "__00_exemple.jpg",
+      "type": 2,
+      "loc": 1,
+      "src": ""
+    }
+  },
+  "metadata": {
+    "1_2sFwKBoB": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        32,
+        125.70315,
+        725.50957,
+        34.29685
+      ],
+      "av": {
+        "1": "key",
+        "2": ""
+      }
+    },
+    "1_Xav15sB5": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        1213,
+        462,
+        312,
+        34
+      ],
+      "av": {
+        "1": "cep",
+        "2": ""
+      }
+    },
+    "1_F13VqB57": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        819,
+        465,
+        373,
+        33
+      ],
+      "av": {
+        "1": "issuer_city",
+        "2": ""
+      }
+    },
+    "1_m0zkY8L0": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        33,
+        462.00844,
+        770,
+        36.99156
+      ],
+      "av": {
+        "1": "street",
+        "2": ""
+      }
+    },
+    "1_O76EVOwf": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        33,
+        248,
+        65,
+        32
+      ],
+      "av": {
+        "1": "dps_number",
+        "2": ""
+      }
+    },
+    "1_Q0tQXgXd": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        426,
+        247,
+        135,
+        29
+      ],
+      "av": {
+        "1": "dps_series"
+      }
+    },
+    "1_GOs4ZGw3": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        31,
+        1468.0256,
+        374,
+        34.48903
+      ],
+      "av": {
+        "1": "amount",
+        "2": "Valor do Serviço"
+      }
+    },
+    "1_3NcSRne2": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        429,
+        344,
+        361,
+        30
+      ],
+      "av": {
+        "1": "provider_cnpj",
+        "2": ""
+      }
+    },
+    "1_T3TmIbYv": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        430,
+        580,
+        359,
+        34
+      ],
+      "av": {
+        "1": "receiver_cnpj",
+        "2": ""
+      }
+    },
+    "1_tkyfIebm": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        479,
+        731,
+        677,
+        47
+      ],
+      "av": {
+        "1": "middleware",
+        "2": ""
+      }
+    },
+    "1_0r3IXWop": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        26,
+        914.14491,
+        1578,
+        58.85509
+      ],
+      "av": {
+        "1": "description",
+        "2": "Descrição do Serviço"
+      }
+    },
+    "1_ng9bQYJq": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        33.56472,
+        831.22032,
+        94.11283,
+        28.95779
+      ],
+      "av": {
+        "1": "cnae",
+        "2": "Código de Tributação Nacional"
+      }
+    },
+    "1_GqoGOwPD": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        821,
+        699.5,
+        372.5,
+        36.5
+      ],
+      "av": {
+        "1": "receiver_city"
+      }
+    },
+    "1_QOtah0hl": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        31,
+        184,
+        208,
+        36
+      ],
+      "av": {
+        "1": "nf_number"
+      }
+    },
+    "1_oZGEimsC": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        2,
+        821,
+        827,
+        381,
+        46
+      ],
+      "av": {
+        "1": "taker_city",
+        "2": "Local da Prestação"
+      }
+    }
+  },
+  "view": {
+    "1": {
+      "fid_list": [
+        "1"
+      ]
+    }
+  }
+}

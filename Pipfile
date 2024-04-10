@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+pytesseract = "*"
+opencv-python = "*"
+pillow = "*"
+matplotlib = "*"
+pymupdf = "*"
+pdf2image = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

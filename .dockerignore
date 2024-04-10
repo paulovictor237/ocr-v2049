@@ -1,0 +1,22 @@
+*.pyc
+__pycache__/
+*.db
+node_modules/
+.serverless/
+
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+/media
+/static
+# .env
+
+.pytest_cache
+
+s_app.py
+wsgi_handler.py
+serverless_wsgi.py
+serverless_sdk/
+.serverless-wsgi

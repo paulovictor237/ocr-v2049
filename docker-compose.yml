@@ -1,0 +1,24 @@
+# docker run -it --rm -p 8080:8080 -p 5000:5000 -e ENVIRONMENT_MODE=development --entrypoint /bin/bash ocr-v2
+version: '3'
+services:
+  ocr-v2:
+    image: ocr-v2
+    container_name: ocr-v2
+    build: .
+    volumes:
+      - './src:/var/task'
+      # - /etc/localtime:/etc/localtime
+    restart: always
+    ports:
+      - "8080:8080"
+      - "5000:5000"
+    # env_file:
+    #   - .env
+    environment:
+      # production / development / simulation
+      - ENVIRONMENT_MODE=simulation
+      # - FLASK_DEBUG=1
+      # - FLASK_APP=main.py
+      # - FLASK_ENV=development
+      # command: python -u main.py
+      # command: flask run --host 0.0.0.0 # host=0.0.0.0
